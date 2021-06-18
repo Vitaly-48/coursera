@@ -75,7 +75,7 @@ def delete_locations(user_id):
 
 @bot.message_handler(commands=['help', 'start'])
 def handle_message(message):
-    help_text = "Привет. Что умеет бот?\n\
+    help_text = "Привет. Вот что умеет бот\n\
             /add – добавление нового места;\n\
             /list – отображение добавленных мест;\n\
             /reset позволяет удалить все добавленные локации;\n"
