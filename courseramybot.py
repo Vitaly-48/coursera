@@ -75,9 +75,10 @@ def delete_locations(user_id):
 
 @bot.message_handler(commands=['help', 'start'])
 def handle_message(message):
-    help_text = "/add – добавление нового места;\n\
+    help_text = "Привет. Что умеет бот?\n\
+            /add – добавление нового места;\n\
             /list – отображение добавленных мест;\n\
-            /reset позволяет пользователю удалить все его добавленные локации;\n"
+            /reset позволяет удалить все добавленные локации;\n"
     bot.send_message(chat_id=message.chat.id, text=help_text)
 
 
