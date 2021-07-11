@@ -2,7 +2,7 @@ import telebot
 import json
 
 
-token = '1897202859:AAG0mNSPsMQ446m4WQ9IfnwQj3ZHamoUuV8'
+token = '1739566161:AAHf5CGmTppjC5aZwmlrSQcmffNdQRdd_0M'
 
 START_ADD, LOCATION = range(2)
 bot = telebot.TeleBot(token)
