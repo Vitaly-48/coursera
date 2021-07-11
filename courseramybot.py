@@ -2,7 +2,7 @@ import telebot
 import json
 
 
-token = '1657970435:AAGNLdiljblc6eUdouQob82pcC1TOWUlMQQ'
+token = '1897202859:AAG0mNSPsMQ446m4WQ9IfnwQj3ZHamoUuV8'
 
 START_ADD, LOCATION = range(2)
 bot = telebot.TeleBot(token)
@@ -78,7 +78,7 @@ def handle_message(message):
     help_text = "Привет. Вот что умеет бот\n\
             /add – добавление нового места;\n\
             /list – отображение добавленных мест;\n\
-            /reset позволяет удалить все добавленные локации;\n"
+            /reset позволяет удалить все добавленные места;\n"
     bot.send_message(chat_id=message.chat.id, text=help_text)
 
 
